@@ -1,0 +1,82 @@
+{
+  "survey_year": 2025,
+  "income_field": "ingtotug",
+  "income_unit": "expenditure_unit",
+  "unit_size_field": "npersug",
+  "resident_count_field": "nper",
+  "annual_weight_field": "fex_c",
+  "annual_weight_already_annualized": true,
+  "cali_area_code": "76",
+  "cali_poverty_domain": "CALI",
+  "primary_distribution_summary": ["weighted_q1", "weighted_median", "weighted_q3"],
+  "primary_threshold_percent": 40,
+  "additional_thresholds_percent": [
+    30,
+    50,
+    100
+  ],
+  "tenure_codes": {
+    "owned_outright": [
+      1
+    ],
+    "owned_with_payments": [
+      2
+    ],
+    "rented": [
+      3
+    ],
+    "other_tenure": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "education_codes": {
+    "primary_or_less": [
+      1,
+      2,
+      3
+    ],
+    "secondary_and_upper_secondary": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "technical_technological_or_undergraduate": [
+      8,
+      9,
+      10
+    ],
+    "postgraduate": [
+      11,
+      12,
+      13
+    ]
+  },
+  "payment_source_by_tenure_code": {
+    "2": "P5100",
+    "3": "P5140"
+  },
+  "nonresponse_codes_by_question": {
+    "P5100": [
+      98,
+      99
+    ],
+    "P5130": [
+      98,
+      99
+    ],
+    "P5140": [
+      98,
+      99
+    ]
+  },
+  "automatic_trimming": false,
+  "automatic_winsorization": false,
+  "age_groups": null,
+  "income_zero_residual_handling": "separate_subgroup",
+  "source_geography_for_country": "official_poverty_coverage",
+  "pipeline_implemented": false
+}

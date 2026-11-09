@@ -1,11 +1,5 @@
-# Data processing and GEIH files
-numpy>=2.0,<3
-pandas>=2.2,<4
-pyarrow>=16,<26
-pyreadstat>=1.2,<2
-
-# Visualizations
-matplotlib>=3.8,<4
-
-# PDF fact sheets
-reportlab>=4.0,<5
+# Versions used with Python 3.12 to build the annual GEIH master.
+numpy==2.5.3
+pandas==3.0.5
+pyarrow==25.0.1
+matplotlib==3.11.2

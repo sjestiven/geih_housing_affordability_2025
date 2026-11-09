@@ -1,0 +1,17 @@
+derived_field,source_dataset,source_fields,definition,unit,validity_rule
+household_income,poverty_households,ingtotug,Current expenditure-unit income before rental imputation,COP per month,Keep official aggregate unchanged; validate nonnegative/finite values
+expenditure_unit_size,poverty_households,npersug,Members of the expenditure unit,persons,Positive integer; denominator for per-unit-member resources
+household_size,poverty_households; geih_persons,nper; ORDEN,All resident members,persons,Reconcile against counted residents; do not force equality to npersug
+annual_weight,poverty_households,fex_c,Annualized survey weight,represented households,Use once; no further division by 12
+tenure_code,geih_housing,P5090,Original seven-category tenure,category,Preserve original and derive four groups
+effective_payment,geih_housing,P5100; P5140,Recorded acquisition installment or rent,COP per month,P5100 for tenure 2; P5140 for tenure 3; otherwise unavailable for main comparison
+estimated_rent,geih_housing,P5130,Self-assessed rental service value,COP per month,Separate valuation; never subtract as cash payment
+burden_percent,derived,effective_payment; ingtotug,Effective payment relative to current resources,percent,100*payment/income for matched valid positive income
+residual_income,derived,ingtotug; effective_payment,Current resources minus recorded payment,COP per month,Negative values retained; not cash or welfare sufficiency
+residual_income_per_unit_member,derived,residual_income; npersug,Residual resources per expenditure-unit member,COP per member per month,Divide by npersug; known zero-income cases kept as a separate subgroup
+head_age,geih_persons,P6040; P6050,Completed age of the unique household head,years,Select P6050=1; age bands remain to be decided
+head_education,geih_persons,P3042; P6050,Highest reached education grouped in four levels,category,1-3;4-7;8-10;11-13; do not infer completed qualification
+head_sex_at_birth,geih_persons,P3271; P6050,Head sex at birth,category,Preserve categories/missingness; distinct from gender identity
+head_gender_identity,geih_persons,P3039; P6050,Head gender identity,category,Optional characterization; verify routing and sparse cells
+in_expenditure_unit,geih_persons,P6050,Membership in principal expenditure unit,boolean,"Exclude relationship codes 10,11,12; validate against npersug"
+income_match_status,join,shared household-month key,Poverty linkage status,category,"Distinguish unmatched, matched-missing, zero and positive income"

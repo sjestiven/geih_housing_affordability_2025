@@ -1,21 +1,25 @@
-# Local Python environments
 .venv/
-.venv_invalid/
-
-# Original GEIH files (about 23 GB)
-Raw/
-
-# Python and notebook temporary files
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-
-# Local plotting cache
-Output/.matplotlib/
-
-# Operating-system files
+.pytest_cache/
 .DS_Store
 Thumbs.db
-
-# Files separated for manual deletion
-_REMOVE_AFTER_REVIEW/
+~$*
+config/*.local.json
+data/raw/**/*
+!data/raw/**/
+!data/raw/**/.gitkeep
+data/processed/**/*
+!data/processed/**/
+!data/processed/**/.gitkeep
+# Review each aggregate table before adding it explicitly.
+outputs/tables/**/*
+!outputs/tables/.gitkeep
+outputs/validation/**/*
+!outputs/validation/**/
+!outputs/validation/**/.gitkeep
+references/**/*.pdf
+references/**/*.xlsx
+references/notes/*.docx
+deliverables/

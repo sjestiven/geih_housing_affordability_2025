@@ -1,0 +1,23 @@
+[
+  {
+    "file": "selman_2025_rental_assistance_chile.pdf",
+    "url": "https://econ-docs.fen.uchile.cl/uploads/publicacion/b14691fb59ac621781f177a3349cf9525e979bb2.pdf",
+    "pages": 48,
+    "sha256": "f13b4c37feba1fbff183731fbbbfc65bf4ddd0db3812e84280b7f2606439cd7d",
+    "accessed": "2026-10-27"
+  },
+  {
+    "file": "londono_velez_querubin_2022_cash_assistance_colombia.pdf",
+    "url": "https://poverty-action.org/sites/default/files/2025-09/Covid19CashColombia_published.pdf",
+    "pages": 9,
+    "sha256": "15405e1ef41c214a24c3d66cef47ec0022c4fa71ee1ba99eb10ee10ac599695c",
+    "accessed": "2026-10-27"
+  },
+  {
+    "file": "blanco_et_al_2014_rental_housing_latin_america.pdf",
+    "url": "https://webimages.iadb.org/publications/spanish/document/Se-busca-vivienda-en-alquiler-Opciones-de-pol%C3%ADtica-en-Am%C3%A9rica-Latina-y-el-Caribe.pdf",
+    "pages": 59,
+    "sha256": "a93b3118ab1543d06f2b61c2c094cbce3557bc6b15fb872db0ddd70d13b4e95c",
+    "accessed": "2026-10-27"
+  }
+]

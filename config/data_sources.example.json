@@ -1,0 +1,9 @@
+{
+  "geih_archive_directory": "data/raw/geih",
+  "poverty_archive_path": "data/raw/monetary_poverty/BDatos-Pobreza_Monetaria_Desigualdad-2025.zip",
+  "path_resolution": "relative_to_project_root",
+  "geih_housing_member_pattern": "CSV/Datos* vivienda.CSV",
+  "geih_person_member_pattern": "CSV/Caracter*.CSV",
+  "poverty_household_member": "Hogares/Hogares.csv",
+  "poverty_person_member": "Personas/Personas.csv"
+}

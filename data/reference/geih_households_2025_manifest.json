@@ -1,0 +1,192 @@
+{
+  "survey_year": 2025,
+  "unit": "household-month",
+  "household_key": [
+    "PER",
+    "MES",
+    "DIRECTORIO",
+    "SECUENCIA_P",
+    "HOGAR"
+  ],
+  "household_months": 292942,
+  "cali_household_months": 10150,
+  "columns": 56,
+  "geih_output": {
+    "file": "geih_households_2025.parquet",
+    "bytes": 4868123,
+    "sha256": "71744e27ffba045894e9bc170ebc94701032e0c6dc2e43f708a3094b0f31aee6"
+  },
+  "linked_household_output": {
+    "file": "geih_poverty_households_2025.parquet",
+    "bytes": 12366404,
+    "sha256": "94db9363d7af9228dbcdef292817f12e3877a4923bd7c8b663a83333de82ed7b",
+    "unit": "household-month",
+    "household_months": 292942,
+    "columns": 77
+  },
+  "geih_person_output": {
+    "file": "geih_persons_housing_2025.parquet",
+    "bytes": 18857717,
+    "sha256": "7de0512b4ad2a87fc09e913f6a968e6f40e0d3fcf88fa134c3fe36638b77a7c0",
+    "unit": "person-month",
+    "key": [
+      "PER",
+      "MES",
+      "DIRECTORIO",
+      "SECUENCIA_P",
+      "HOGAR",
+      "ORDEN"
+    ],
+    "person_months": 817550,
+    "cali_person_months": 26727,
+    "columns": 99,
+    "aliased_columns": {
+      "PERIODO": "person_periodo",
+      "REGIS": "person_regis",
+      "AREA": "person_area",
+      "CLASE": "person_clase",
+      "FEX_C18": "person_fex_c18",
+      "DPTO": "person_dpto"
+    }
+  },
+  "geih_monthly_archives": [
+    {
+      "month": 1,
+      "household_months": 24109,
+      "cali_household_months": 846,
+      "person_rows_checked": 67857,
+      "cali_person_months": 2225,
+      "file": "Enero 2025.zip",
+      "bytes": 61861452,
+      "sha256": "5a9a9cddbf7990d875fb940617e6f61528d0f4bffcf6fc79b0a8ddc310384b11"
+    },
+    {
+      "month": 2,
+      "household_months": 24313,
+      "cali_household_months": 829,
+      "person_rows_checked": 67953,
+      "cali_person_months": 2176,
+      "file": "Febrero 2025.zip",
+      "bytes": 63736027,
+      "sha256": "abccef62a545c83442cb153576caf8c97c2b14cf70a97d16e7ab9b5ae5c6f815"
+    },
+    {
+      "month": 3,
+      "household_months": 24193,
+      "cali_household_months": 835,
+      "person_rows_checked": 68083,
+      "cali_person_months": 2242,
+      "file": "Marzo 2025.zip",
+      "bytes": 65146964,
+      "sha256": "8042e6072cede63794c5e7fff29a31ac6251ba91d272121bcd737ab9c079f634"
+    },
+    {
+      "month": 4,
+      "household_months": 24253,
+      "cali_household_months": 806,
+      "person_rows_checked": 68253,
+      "cali_person_months": 2167,
+      "file": "Abril 2025.zip",
+      "bytes": 64838112,
+      "sha256": "ab5058d9930f436cb4c891745c70fea8b13b9906b3236b6255363c2d981d9ce7"
+    },
+    {
+      "month": 5,
+      "household_months": 24401,
+      "cali_household_months": 831,
+      "person_rows_checked": 68421,
+      "cali_person_months": 2239,
+      "file": "Mayo 2025.zip",
+      "bytes": 66529357,
+      "sha256": "917ff77040477c10a8e716beca2411bc1409a3a850cd7faf83239b9fbca46e61"
+    },
+    {
+      "month": 6,
+      "household_months": 24337,
+      "cali_household_months": 887,
+      "person_rows_checked": 67856,
+      "cali_person_months": 2342,
+      "file": "Junio 2025.zip",
+      "bytes": 63992498,
+      "sha256": "09f8aa61c5d2a8a3b15a8ce9b8896241ffd4b581b0e61bf49938f682b9f1716a"
+    },
+    {
+      "month": 7,
+      "household_months": 24546,
+      "cali_household_months": 855,
+      "person_rows_checked": 68436,
+      "cali_person_months": 2260,
+      "file": "Julio 2025.zip",
+      "bytes": 64099912,
+      "sha256": "7e1131b1a76920fba7ea196e0a6ff79d7716cfbd85cd5c8e835a3ad8e9a6e401"
+    },
+    {
+      "month": 8,
+      "household_months": 24609,
+      "cali_household_months": 852,
+      "person_rows_checked": 68577,
+      "cali_person_months": 2213,
+      "file": "Agosto 2025.zip",
+      "bytes": 64394716,
+      "sha256": "37bf960cb8485c476e783e061554eb988cb47fcc78ab08e3754df7de6ff75e7e"
+    },
+    {
+      "month": 9,
+      "household_months": 24524,
+      "cali_household_months": 860,
+      "person_rows_checked": 68263,
+      "cali_person_months": 2238,
+      "file": "Septiembre 2025.zip",
+      "bytes": 65258825,
+      "sha256": "4811035024413e0b5148d24c3ed30411d4bce6467ad80680a6452ddef8724234"
+    },
+    {
+      "month": 10,
+      "household_months": 24774,
+      "cali_household_months": 880,
+      "person_rows_checked": 68710,
+      "cali_person_months": 2246,
+      "file": "Octubre 2025.zip",
+      "bytes": 69246560,
+      "sha256": "fd43be71d27865d4fd419b1a2beaca2f48bb0a9aa1bc35db5a342fccd711da58"
+    },
+    {
+      "month": 11,
+      "household_months": 24724,
+      "cali_household_months": 849,
+      "person_rows_checked": 68582,
+      "cali_person_months": 2231,
+      "file": "Noviembre 2025.zip",
+      "bytes": 66969027,
+      "sha256": "b12f3734352990cf4716a81cce96dc5d5f45f94e8d781ff64a31bb5fdad3eec0"
+    },
+    {
+      "month": 12,
+      "household_months": 24159,
+      "cali_household_months": 820,
+      "person_rows_checked": 66559,
+      "cali_person_months": 2148,
+      "file": "Diciembre 2025.zip",
+      "bytes": 63423155,
+      "sha256": "7037f679c6827714db5c8fc01a67ef74eb4703cf24ae23ebb800c146220abc2c"
+    }
+  ],
+  "poverty_archive": {
+    "file": "BDatos-Pobreza_Monetaria_Desigualdad-2025.zip",
+    "bytes": 104651471,
+    "sha256": "d8de9cd95fc6330b948b82de0d39b0a1b6b65ade19ac3842f36fb8df924f51eb",
+    "member": "Hogares/Hogares.csv",
+    "household_rows": 276666,
+    "matched_geih_households": 276666,
+    "geih_without_poverty_match": 16276,
+    "poverty_without_geih_match": 0,
+    "cali_matched_households": 10150,
+    "aliased_columns": {
+      "clase": "poverty_clase",
+      "p5090": "poverty_p5090",
+      "p5100": "poverty_p5100",
+      "p5130": "poverty_p5130",
+      "dpto": "poverty_dpto"
+    }
+  }
+}
