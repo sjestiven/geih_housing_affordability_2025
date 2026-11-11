@@ -204,8 +204,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", type=Path, help="Optional source configuration path")
     args = parser.parse_args()
-    local_config = ROOT / "config/data_sources.local.json"
-    config = args.config or (local_config if local_config.exists() else ROOT / "config/data_sources.example.json")
+    config = args.config or ROOT / "config/data_sources.json"
     sources = json.loads(config.read_text(encoding="utf-8-sig"))
     archives = ROOT / sources["geih_archive_directory"]
     poverty_archive = ROOT / sources["poverty_archive_path"]
